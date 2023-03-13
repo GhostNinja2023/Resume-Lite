@@ -1,0 +1,28 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.navbar .heading{
+    color: white;
+}
+.navbar .menu a{
+    color: red;
+    margin-right: 5px;
+}
+
+.about-me h1, .section h1{
+    text-align: center;
+}
+
+.call-section{
+    background-color: aquamarine;
+}
